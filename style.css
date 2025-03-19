@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagina {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .header__titulo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header__nombre, .header__ficha {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .contenido {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .tareas {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: left;
+  }
+  
+  .tarea__titulo{
+    color: #333;
+    text-align: center;
+  }
+  
+  .tarea {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+  }
+  
+  .tareas__titulo {
+    color: #4CAF50;
+    font-size: 18px;
+  }
+  
+  .tareas__description {
+    color: #555;
+    font-size: 16px;
+  }
+  

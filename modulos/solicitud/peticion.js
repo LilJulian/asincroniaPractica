@@ -1,10 +1,10 @@
+// Definimos una función asíncrona llamada peticio que recibe una URL como parámetro
 export const peticion = async (URL) => {
-  try {
-    const pedir = await fetch(URL);
-    const datos = await pedir.json();
-    return datos;    
-  } catch (error) {
-    alert("Solicitud no encontrada");
-  }
   
+    //Realizar la solicitud
+    const pedir = await fetch(URL);
+    //Convertir la solicitud a archivo json y la guardamos en "datos"
+    const datos = await pedir.json();
+    //Retornar datos
+    return datos;    
 }
