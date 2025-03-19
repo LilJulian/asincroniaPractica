@@ -1,4 +1,4 @@
-import peticion from "./peticion.js";
+import {peticion} from "../solicitud/peticion.js";
 
 export const getTareas = async (URL, competado) => {
   try {

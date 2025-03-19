@@ -1,4 +1,4 @@
-import peticion from "./peticion.js";
+export {peticion} from "../solicitud/peticion.js";
 
 export const getPosts = async (URL, usuario) => {
   let ruta = "";

@@ -1,4 +1,4 @@
-const peticion = async (URL) => {
+export const peticion = async (URL) => {
   try {
     const pedir = await fetch(URL);
     const datos = await pedir.json();
@@ -8,5 +8,3 @@ const peticion = async (URL) => {
   }
   
 }
-
-export default peticion;
